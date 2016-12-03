@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitch.tv Dark Theme",
+  "description": "",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "css": ["mystyles.css"]
+    }
+  ],
+  "permissions": [
+    "https://www.twitch.tv/*"
+  ]
+}
