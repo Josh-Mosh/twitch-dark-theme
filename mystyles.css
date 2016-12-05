@@ -1,11 +1,4 @@
-// #channel, div.cn-bar {
-//   background: #242229;
-// }
-
-// span.cn-bar__displayname, .cn-tabs__title {
-//   color: #a8a3af;
-// }
-
-// span.cn-bar__displayname:hover, .cn-tabs__title:hover {
-//   color: #6441a4;
-// }
+// Hardcoding some styles may be necessary for elements not in dom when color change script runs
+p.title {
+  color: #faf9fa !important;
+}
