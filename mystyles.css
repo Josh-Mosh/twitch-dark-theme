@@ -1,4 +1,26 @@
 // Hardcoding some styles may be necessary for elements not in dom when color change script runs
-p.title {
+
+body {
+  background: pink;
+  border: 3px solid orange;
+}
+
+p.title, h2.title {
   color: #faf9fa !important;
+}
+
+.player-placeholder {
+  background: black !important;
+}
+
+a#left_close, a#right_close {
+  background: #f1ecff !important;
+}
+
+.toggle-notification-menu {
+  background: #efeef1;
+}
+
+#right_col {
+  background: #17141F !important;
 }
